@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portifólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li> <!-- Link para a seção Sobre mim -->
+                <li><a href="#formacao">Formação</a></li> <!-- Link para a seção Formação -->
+                <li><a href="#portifolio">Portifólio</a></li> <!-- Link para a seção Portifólio -->
+                <li><a href="#contato">Contato</a></li> <!-- Link para a seção Contato -->
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <h2> Quem sou eu? </h2>
+        <img src="imagens/Selfie.png" alt="Imagem Sobre">
+        <p>Vitor Daniel P F Coelho</p>
+        <p>20 Anos</p>
+        <p>Olá, mundo! Sou natural de Porto Velho, Rondônia. Sou apaixonado por tecnologia desde criança e estou sempre em busca de novos conhecimentos e desafios nesse vasto universo digital.
+            Atualmente, estou construindo este site para compartilhar minha jornada, experiências e aprendizados. Aqui, você encontrará uma coleção de projetos, reflexões e ideias que refletem minha paixão pelo mundo da tecnologia e do desenvolvimento web.
+            Sinta-se à vontade para explorar e acompanhar minha jornada enquanto continuo a aprimorar minhas habilidades e compartilhar minha visão do mundo digital. </p>
+    </section>
+
+    <section id="formacao" style="display: none;">
+        <h2></h2>
+        <img src="imagens/Uninter.png" alt="Imagem Formação">
+        <p>Atualmente estou cursando no Centro Universitário Internacional Uninter</p>
+        <p>Curso de Engenharia de Software</p>
+    </section>
+
+    <section id="portifolio" style="display: none;">
+        <h2></h2>
+        <img src="imagens/Construção.png" alt="Imagem Portifólio">
+        <p>🚧 Esta página ainda está em desenvolvimento 🚧</p>
+    </section>
+
+    <section id="contato" style="display: none;">
+        <h2></h2>
+        <img src="imagens/Conversa.png" alt="Imagem Contato">
+        <p>Entre em contato comigo preenchendo o formulário abaixo:</p> <!-- Formulário simples -->
+        <form>
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br>
+    
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required><br>
+    
+            <label for="mensagem"></label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea><br> 
+    
+            <input type="submit" value="Enviar"><br>
+        </form>
+    </section>      
+
+    <footer>
+        <p>&copy; 2024 Meu Portifólio. Todos os direitos reservados.</p> <!-- Rodapé do site -->
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Inclui o arquivo JavaScript externo -->
+</body>
+</html>
